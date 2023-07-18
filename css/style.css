@@ -231,8 +231,8 @@ header  {
   padding-top: 50px;
   padding-bottom: 80px;
   background-image: url("../img/stars.svg");
-  background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .big-sect-bottom h3 {
