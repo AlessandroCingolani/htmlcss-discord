@@ -11,11 +11,23 @@ body {
 }
 
 .container {
-  width: 70%;
+  width: 80%;
   max-width: 1200px;
-  min-width: 800px;
+  min-width: 1000px;
 }
- 
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  color: black;
+}
+
+
 /* header */
 
 /* flex for the nav block */
@@ -51,7 +63,6 @@ header  {
   padding-left: 40px;
   font-size: 1.1rem;
   color: white;
-  text-decoration: none;
 }
 
 /* login block in the nav block */
