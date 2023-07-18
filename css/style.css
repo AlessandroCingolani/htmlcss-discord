@@ -30,17 +30,13 @@ header  {
 /* dimension all nav block */
 .nav-block {
   display: flex;
-  border: 2px dashed black;
-  background-color: rgb(169, 129, 31);
 }
 
 /* logo block in the nav block */
 .logo-header {
-  width: 20%;
-  height: 100%;
   display: flex;
   align-items: center;
-  border: 2px dashed black;
+  width: 20%;
 }
 
 /* link block in the nav block */
@@ -49,18 +45,21 @@ header  {
   justify-content: center;
   align-items: center;
   width: 60%;
-  height: 100%;
-  border: 2px dashed black;
+}
+
+.link-header ul li a {
+  padding-left: 40px;
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
 }
 
 /* login block in the nav block */
 .login-header {
-  width: 20%;
-  height: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  border: 2px dashed black;
+  width: 20%;
 }
 
 /* display inline list of link */
