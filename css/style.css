@@ -92,7 +92,7 @@ header  {
   padding-bottom: 100px;
   padding-top: 160px;
   max-width: 1000px;
-  min-width: 600px;
+  min-width: 680px;
 }
 
 /* block title and img */
@@ -124,30 +124,33 @@ header  {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
   height: 500px;
 }
 
 /* block container for img and text*/
 .main-contents {
   display: flex;
-  height: 450px;
-  border: 2px dashed black;
 }
 
 /* block for img */
 .img-content-img {
   width: 60%;
-  height: 100%;
-  background-color: rgb(30, 144, 255);
-  border: 2px dashed black;
 }
 
 /* block for text */
 .text-main-content {
   width: 40%;
-  height: 100%;
-  background-color: rgb(255, 192, 203);
-  border: 2px dashed black;
+  flex-shrink: 0;
+}
+
+.text-main-content h2 {
+  font-size: 2rem;
+}
+
+.text-main-content .text {
+  margin-top: 10px;
+  font-size: 1.3rem;
 }
 
 /* for dsplay reverse img and text block */
