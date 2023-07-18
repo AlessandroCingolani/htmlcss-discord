@@ -194,16 +194,22 @@ header  {
   width: 100%;
 }
 
+/* background need ridimension */
 .big-sect-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-top: 50px;
   background-image: url("../img/stars.svg");
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
 }
 
 .big-sect-bottom h3 {
   font-size: 1.6rem;
+  margin-bottom: 40px;
 }
 
 /* /section 4  */
