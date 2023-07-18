@@ -7,7 +7,12 @@
   box-sizing: border-box;
 }
 
-
+.container {
+  width: 70%;
+  max-width: 1200px;
+  min-width: 800px;
+}
+ 
 /* header */
 
 /* flex for the nav block */
@@ -21,9 +26,6 @@ header  {
 
 /* dimension all nav block */
 .nav-block {
-  width: 70%;
-  max-width: 1200px;
-  min-width: 800px;
   display: flex;
   border: 2px dashed black;
   background-color: rgb(169, 129, 31);
@@ -74,8 +76,10 @@ header  {
 }
 
 /* block title and img */
-.title-description {
+#jumbotron {
   width: 60%;
+  max-width: 1000px;
+  min-width: 600px;
   height: 450px;
   background-color: rgb(167, 96, 167);
   border: 2px dashed black;
@@ -92,7 +96,6 @@ header  {
 /* block container for img and text*/
 .main-contents {
   display: flex;
-  width: 70%;
   height: 450px;
   border: 2px dashed black;
 }
@@ -117,7 +120,6 @@ header  {
 .main-contents.reverse {
   display: flex;
   flex-direction: row-reverse;
-  width: 70%;
   height: 450px;
 }
 
@@ -134,7 +136,6 @@ header  {
 }
 
 .big-contents {
-  width: 70%;
   height: 700px;
   background-color: rgb(34, 139, 34);
   border: 2px dashed black;
@@ -154,7 +155,6 @@ footer {
 /* row with columns */
 .footer-row {
   display: flex;
-  width: 70%;
   height: 500px;
 }
 
@@ -181,7 +181,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   align-self:flex-end;
-  width: 70%;
   height: 55px;
   background-color: rgb(108, 212, 177);
 }
