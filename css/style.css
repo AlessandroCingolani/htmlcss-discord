@@ -125,7 +125,6 @@ header  {
   justify-content: center;
   align-items: center;
   color: black;
-  height: 500px;
 }
 
 /* block container for img and text*/
@@ -158,7 +157,7 @@ header  {
 .main-contents.reverse {
   display: flex;
   flex-direction: row-reverse;
-  height: 450px;
+
 }
 
 .background-change {
@@ -170,14 +169,43 @@ header  {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 750px;
 }
 
 .big-contents {
-  height: 700px;
-  background-color: rgb(34, 139, 34);
-  border: 2px dashed black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: black;
+  margin-top: 50px;
 }
+
+.big-contents .big-cont-paragraph {
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+
+.big-contents h2 {
+  font-size: 3rem;
+}
+
+.big-contents img {
+  width: 100%;
+}
+
+.big-sect-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/stars.svg");
+  background-size: contain;
+}
+
+.big-sect-bottom h3 {
+  font-size: 1.6rem;
+}
+
 /* /section 4  */
 
 /* dimension background footer */
