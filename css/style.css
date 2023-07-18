@@ -141,7 +141,7 @@ header  {
 /* block for text */
 .text-main-content {
   width: 40%;
-  flex-shrink: 0;
+  min-width: 350px;
 }
 
 .text-main-content h2 {
@@ -151,6 +151,7 @@ header  {
 .text-main-content .text {
   margin-top: 10px;
   font-size: 1.3rem;
+  text-align: left;
 }
 
 /* for dsplay reverse img and text block */
