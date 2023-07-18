@@ -35,7 +35,7 @@ header  {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(161, 209, 226);
+  background-color:rgb(37, 94, 233);
   height: 80px;
 }
 
@@ -78,24 +78,27 @@ header  {
   display: inline-block;
 }
 
-
-/* title and img section */
 .head-block {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:rgb(6, 6, 118);
-  height: 500px;
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
+}
+
+/* title and img section */
+.jumbotron-block {
+  width: 55%;
+  padding-top: 175px;
+  max-width: 1000px;
+  min-width: 600px;
 }
 
 /* block title and img */
 #jumbotron {
-  width: 60%;
-  max-width: 1000px;
-  min-width: 600px;
-  height: 450px;
+  text-align: center;
+  display: block;
   background-color: rgb(167, 96, 167);
-  border: 2px dashed black;
 }
 
 /* background for container main contents */
