@@ -29,10 +29,17 @@ a {
 }
 
 .blue-btn {
-  padding: 12px 25px;
+  padding: 12px 20px;
   color: white;
   background-color: rgb(114, 137, 218);
 }
+
+.arrow.btn::before {
+  content: "\1F817";
+  font-size: 1.3rem;
+  margin-right: 2px;
+}
+
 /* header */
 
 /* flex for the nav block */
@@ -125,11 +132,6 @@ header  {
   padding: 12px 20px;
 }
 
-.arrow.btn::before {
-  content: "\1F817";
-  font-size: 1.4rem;
-  margin-right: 5px;
-}
 
 .jumbo-btn .btn:last-child{
   color: white;
@@ -270,6 +272,7 @@ footer {
 .big-col img {
   width: 25px;
 }
+
 
 .loghi i {
   font-size: 20px;
