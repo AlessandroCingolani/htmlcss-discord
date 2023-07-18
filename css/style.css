@@ -28,7 +28,11 @@ a {
   color: black;
 }
 
-
+.blue-btn {
+  padding: 12px 25px;
+  color: white;
+  background-color: rgb(114, 137, 218);
+}
 /* header */
 
 /* flex for the nav block */
@@ -121,8 +125,10 @@ header  {
   padding: 12px 20px;
 }
 
-.jumbo-btn .btn:first-child .btn::before {
-  content: ;
+.arrow.btn::before {
+  content: "\1F817";
+  font-size: 1.4rem;
+  margin-right: 5px;
 }
 
 .jumbo-btn .btn:last-child{
