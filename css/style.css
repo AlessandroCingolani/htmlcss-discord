@@ -210,6 +210,7 @@ header  {
   flex-wrap: wrap;
   width: 40%;
   padding-top: 50px;
+  padding-bottom: 80px;
   background-image: url("../img/stars.svg");
   background-position: center;
   background-size: cover;
@@ -247,6 +248,15 @@ footer {
   flex-shrink: 0;
 }
 
+.big-col img {
+  width: 30px;
+}
+
+.loghi i {
+  color: white;
+  font-size: 25px;
+  margin: 10px 10px 0 0;
+}
 /* standard columns */
 .footer-col {
   width: calc(100% / 4);
