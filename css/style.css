@@ -111,8 +111,12 @@ header  {
   margin-bottom: 10px;
 }
 
-#jumbotron .btn {
-  margin: 10px 20px;
+ .jumbo-btn {
+  margin-top: 30px;
+}
+
+.jumbo-btn .btn {
+  margin-left: 15px;
 }
 
 /* background for container main contents */
