@@ -1,0 +1,206 @@
+/* TO ADD MIN WIDTH AND MAX  */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* header */
+
+/* flex for the nav block */
+header  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(161, 209, 226);
+  height: 80px;
+}
+
+/* dimension all nav block */
+.nav-block {
+  width: 70%;
+  max-width: 1200px;
+  min-width: 800px;
+  display: flex;
+  border: 2px dashed black;
+  background-color: rgb(169, 129, 31);
+}
+
+/* logo block in the nav block */
+.logo-header {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px dashed black;
+}
+
+/* link block in the nav block */
+.link-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  border: 2px dashed black;
+}
+
+/* login block in the nav block */
+.login-header {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 2px dashed black;
+}
+
+/* display inline list of link */
+.link-header ul li{
+  display: inline-block;
+}
+
+
+/* title and img section */
+.head-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(6, 6, 118);
+  height: 500px;
+}
+
+/* block title and img */
+.title-description {
+  width: 60%;
+  height: 450px;
+  background-color: rgb(167, 96, 167);
+  border: 2px dashed black;
+}
+
+/* background for container main contents */
+.main-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+/* block container for img and text*/
+.main-contents {
+  display: flex;
+  width: 70%;
+  height: 450px;
+  border: 2px dashed black;
+}
+
+/* block for img */
+.img-content-img {
+  width: 60%;
+  height: 100%;
+  background-color: rgb(30, 144, 255);
+  border: 2px dashed black;
+}
+
+/* block for text */
+.text-main-content {
+  width: 40%;
+  height: 100%;
+  background-color: rgb(255, 192, 203);
+  border: 2px dashed black;
+}
+
+/* for dsplay reverse img and text block */
+.main-contents.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 70%;
+  height: 450px;
+}
+
+.background-change {
+  background-color: rgb(211, 211, 211);
+}
+
+/* section 4  */
+.big-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+}
+
+.big-contents {
+  width: 70%;
+  height: 700px;
+  background-color: rgb(34, 139, 34);
+  border: 2px dashed black;
+}
+/* /section 4  */
+
+/* dimension background footer */
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  background-color:rgb(33, 36, 39);
+  height: 600px;
+}
+
+/* row with columns */
+.footer-row {
+  display: flex;
+  width: 70%;
+  height: 500px;
+}
+
+/* biggest column */
+.big-col {
+  width: 32%;
+  height: 100%;
+  background-color: rgb(240, 128, 128);
+  border: 2px dashed black;
+  flex-shrink: 0;
+}
+
+/* standard columns */
+.footer-col {
+  width: calc(100% / 4);
+  height: 100%;
+  background-color:rgb(32, 178, 170);
+  border: 2px dashed white;
+}
+
+/* footer with button and logo */
+.footer-closer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self:flex-end;
+  width: 70%;
+  height: 55px;
+  background-color: rgb(108, 212, 177);
+}
+
+/* position elements in the footer */
+.logo-footer, button {
+  display: flex;
+  width: 75px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  border:2px dashed black;
+  background-color: rgb(204, 147, 156);
+}
+
+/* footer break line */
+.break-line {
+  width: 100%;
+  height: 1px;
+  margin-top: 10px;
+  border: 1px solid white;
+}
