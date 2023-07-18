@@ -130,17 +130,24 @@ header  {
 /* block container for img and text*/
 .main-contents {
   display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 /* block for img */
-.img-content-img {
+.img-content {
   width: 60%;
+}
+
+.img-content img {
+  width: 100%;
 }
 
 /* block for text */
 .text-main-content {
   width: 40%;
-  min-width: 350px;
+  min-width: 300px;
+  padding: 32px 60px 0 0;
 }
 
 .text-main-content h2 {
