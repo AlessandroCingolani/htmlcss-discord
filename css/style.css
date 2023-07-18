@@ -89,7 +89,8 @@ header  {
 /* title and img section */
 .jumbotron-block {
   width: 55%;
-  padding-top: 175px;
+  padding-bottom: 100px;
+  padding-top: 160px;
   max-width: 1000px;
   min-width: 600px;
 }
@@ -98,7 +99,20 @@ header  {
 #jumbotron {
   text-align: center;
   display: block;
-  background-color: rgb(167, 96, 167);
+}
+
+#jumbotron h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#jumbotron p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+#jumbotron .btn {
+  margin: 10px 20px;
 }
 
 /* background for container main contents */
